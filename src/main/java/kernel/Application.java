@@ -1,4 +1,4 @@
-package bootstrap;
+package kernel;
 
 import org.apache.log4j.*;
 import org.slf4j.Logger;
@@ -8,12 +8,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class Driver {
+public class Application {
     public static final String SEPARATOR =
             "==============================================================";
 
     public static Properties projectProperties = new Properties();
-    public static Logger     logger            = LoggerFactory.getLogger(Driver.class);
+    public static Logger     logger            = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
         try {

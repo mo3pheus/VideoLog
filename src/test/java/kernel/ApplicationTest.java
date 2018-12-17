@@ -1,10 +1,8 @@
-package bootstrap;
+package kernel;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class DriverTest {
+public class ApplicationTest {
 
     @Test
     public void testDriverMock() {
